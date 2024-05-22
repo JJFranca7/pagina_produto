@@ -4,38 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página do produto</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="content">
-      <header class="header">
-        <nav class="navbar">
-
-        <h1>EMPRESA</h1>
-        <ul class="lista">
-            <li>HOME</li>
-            <li>PRODUTOS</li>
-            <li>CONTATO</li>
+      <header>
+        <nav class="nav-bar">
+          <div class="logo">
+            <h1>EMPRESA</h1>
+          </div>
+        <ul class="nav-list">
+            <li>
+              <a class="options" href="home.html">HOME</a>
+            </li>
+            <li>
+              <a class="options" href="products.html">PRODUTOS</a>
+            </li>
+            <li>
+              <a class="options" href="contact.html">CONTATO</a>
+            </li>
         </ul>
         </nav>
       </header>
-      <section class="destaque">
-        <img src="#" />
-        <h2>Nome do produto</h2>
-        <p>
-          Descrição completa do produto...(produto tem qualidade e benefícios do
-          produto).
-        </p>
-      </section>
-      <section class="recursos">
-                <h3>Recurso 1</h3>
-                <img src="#" />
-                <h3>Recurso 2</h3>
-                <img src="#" />
-              <div class="recusos-item">
-                <h3>Recurso 3</h3>
-                <img src="#" />
-      </section>
+        <section class="product">
+          <div>
+            <img 
+            class="img-product"
+            src="#"/>
+          </div>
+          <div>
+            <div class="name-product">
+              <h2>Nome do produto</h2>
+            </div>
+            <p class="description">
+              Descrição completa do produto...(produto tem qualidade e benefícios do
+              produto).
+            </p>
+          </div>
+        </section>
+      <div class="resources">
+        <ul>
+          <li>
+            <a
+            class="resource" 
+            href="#resource1">Recurso 1</a>
+          </li>
+          <li>
+            <a
+            class="resource" 
+            href="#resource2">Recurso 2</a>
+          </li>
+          <li>
+            <a
+            class="resource" 
+            href="#resource3">Recurso 3</a>
+          </li>
+          <li>
+            <a
+            class="resource" 
+            href="#resource4">Recurso 4</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
