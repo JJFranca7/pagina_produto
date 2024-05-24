@@ -10,92 +10,91 @@ body {
 .nav-bar {
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: space-around;
   align-items: center;
-  color: white;
-  height: 15vh;
   background-color: rgb(105, 105, 105);
+  border-bottom: 1px solid white;
+  height: 10vh;
 }
 
-.logo {
+h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: x-large;
+  text-align: center;
+  color: white;
 }
 
-.nav-list {
+.nav-items {
   display: flex;
   list-style-type: none;
-  cursor: pointer;
-  font-size: small;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer; 
+  justify-content: space-between;
 }
 
 .options {
+  display: flex;
   text-decoration: none;
   color: white;
-  margin-left: 50px;
-  letter-spacing: 3px;
+  letter-spacing: 0.1vh;
+  font-size: 2vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
 }
 
 .product {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 4vh;
+  padding-left: 4vh;
 }
 
 .img-product {
-  padding-left: 60px;
-  padding-right: 30px;
-  width: 350px;
-  height: 350px;
+  width: 80%;
 }
+
 .name-product {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
-  text-align: left;
-  margin-bottom: 60px;
-  font-size: larger;
+  text-align: center;
+  margin-bottom: 5vh;
+  font-size: 3vh;
   color: white;
 }
 
 .description {
   font-family: "Times New Roman", Times, serif;
-  font-size: large;
+  font-size: 3vh;
   color: white;
 }
 
 .resources{
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: row;
-  margin-top: 100px;
-  margin-bottom: 60px;
   justify-content: space-around;
-  background-color: grey;
-}
-
-.resource {
-  display: flex;
   align-items: center;
-  text-align: center;
-  color: white;
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 i{
-  margin: 5px;
   cursor: pointer;
+  color: white;
+  width: 1%;
+  height: 1%;
 }
 
 .resource-link{
   text-decoration: none;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: large;
-  
+  align-items: center;
+  justify-content: space-around;
 }
 
 .img-resource{
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
-  margin-right: 5px;
+  align-items: center;
+  width: 3%;
 }
