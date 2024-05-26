@@ -4,17 +4,18 @@
 }
 
 body {
-  background-color: black;
+    background: rgb(143,143,143);
+    background: linear-gradient(79deg, rgba(143,143,143,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .nav-bar {
   display: flex;
+  justify-content:space-around;
   width: 100%;
-  justify-content: space-around;
+  height: 10vh;
   align-items: center;
   background-color: rgb(105, 105, 105);
   border-bottom: 1px solid white;
-  height: 10vh;
 }
 
 h1{
@@ -26,8 +27,7 @@ h1{
 .nav-items {
   display: flex;
   list-style-type: none;
-  cursor: pointer; 
-  justify-content: space-between;
+  cursor: pointer;
 }
 
 .options {
@@ -38,19 +38,22 @@ h1{
   font-size: 2vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   justify-content: center;
+  padding-right:2vh;
 }
 
 .product {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  justify-items:center;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   padding-right: 4vh;
   padding-left: 4vh;
 }
 
 .img-product {
   width: 80%;
+  border-radius:10px;
 }
 
 .name-product {
@@ -69,21 +72,26 @@ h1{
 
 .resources{
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: grey;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-top:1px solid white;
+}
+
+.resource{
+  display:flex;
+  align-items:center;
+ padding-bottom: 15vh;
+  justify-content:center;
 }
 
 i{
   cursor: pointer;
   color: white;
-  width: 1%;
-  height: 1%;
 }
 
 .resource-link{
@@ -91,10 +99,14 @@ i{
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
-  justify-content: space-around;
+  font-size:3vh;
+  padding-right:3vh;
+  padding-left:1vh;
+  
 }
 
 .img-resource{
   align-items: center;
-  width: 3%;
+  width: 30%;
+  border-radius:80px;
 }
